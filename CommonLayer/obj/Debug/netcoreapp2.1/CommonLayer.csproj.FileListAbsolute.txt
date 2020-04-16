@@ -1,0 +1,17 @@
+D:\Github\EmployeeManagement\CommonLayer\bin\Debug\netcoreapp2.1\CommonLayer.deps.json
+D:\Github\EmployeeManagement\CommonLayer\bin\Debug\netcoreapp2.1\CommonLayer.dll
+D:\Github\EmployeeManagement\CommonLayer\bin\Debug\netcoreapp2.1\CommonLayer.pdb
+D:\Github\EmployeeManagement\CommonLayer\obj\Debug\netcoreapp2.1\CommonLayer.csproj.CoreCompileInputs.cache
+D:\Github\EmployeeManagement\CommonLayer\obj\Debug\netcoreapp2.1\CommonLayer.AssemblyInfoInputs.cache
+D:\Github\EmployeeManagement\CommonLayer\obj\Debug\netcoreapp2.1\CommonLayer.AssemblyInfo.cs
+D:\Github\EmployeeManagement\CommonLayer\obj\Debug\netcoreapp2.1\CommonLayer.dll
+D:\Github\EmployeeManagement\CommonLayer\obj\Debug\netcoreapp2.1\CommonLayer.pdb
+D:\EmployeeManagement\CommonLayer\bin\Debug\netcoreapp2.1\CommonLayer.deps.json
+D:\EmployeeManagement\CommonLayer\bin\Debug\netcoreapp2.1\CommonLayer.dll
+D:\EmployeeManagement\CommonLayer\bin\Debug\netcoreapp2.1\CommonLayer.pdb
+D:\EmployeeManagement\CommonLayer\obj\Debug\netcoreapp2.1\CommonLayer.csproj.CoreCompileInputs.cache
+D:\EmployeeManagement\CommonLayer\obj\Debug\netcoreapp2.1\CommonLayer.AssemblyInfoInputs.cache
+D:\EmployeeManagement\CommonLayer\obj\Debug\netcoreapp2.1\CommonLayer.AssemblyInfo.cs
+D:\EmployeeManagement\CommonLayer\obj\Debug\netcoreapp2.1\CommonLayer.dll
+D:\EmployeeManagement\CommonLayer\obj\Debug\netcoreapp2.1\CommonLayer.pdb
+D:\EmployeeManagement\CommonLayer\obj\Debug\netcoreapp2.1\CommonLayer.csprojAssemblyReference.cache
