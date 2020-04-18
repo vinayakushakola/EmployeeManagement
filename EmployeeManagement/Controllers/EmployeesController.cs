@@ -33,7 +33,7 @@ namespace EmployeeManagement.Controllers
             List<Employee> employees = employeeBusiness.Get();
             if (employees.Count == 0)
             {
-                return NotFound("No Data Present");
+                return NotFound(new { Response = "No Data Present" });
             }
             return Ok(employees.ToList());
         }
@@ -49,7 +49,7 @@ namespace EmployeeManagement.Controllers
             Employee employee = employeeBusiness.Get(id);
             if (employee == null)
             {
-                return NotFound("No Employee Data Present with this id");
+                return NotFound(new { Response = "No Employee Data Present with this id: " + id });
             }
             return Ok(employee);
         }
@@ -65,9 +65,9 @@ namespace EmployeeManagement.Controllers
             int count = employeeBusiness.Add(employee);
             if (count == 0)
             {
-                return Content(NoContent().ToString(), "Unable to Add Employee!");
+                return Content(NoContent().ToString(), "Unable to Add Employee Data!" );
             }
-            return Ok("Employee Data Added Successfully");
+            return Ok(new { Response = "Employee Data Added Successfully" });
         }
 
         /// <summary>
@@ -82,9 +82,9 @@ namespace EmployeeManagement.Controllers
             int count = employeeBusiness.Update(id, employee);
             if (count == 0)
             {
-                return NotFound("No Employee Data Present with this id");
+                return NotFound(new { Response = "No Employee Data is Present with this id" + id });
             }
-            return Ok("Employee data has Been Successfully Updated!");
+            return Ok(new { Response = "Employee data has Been Successfully Updated!" });
         }
 
         /// <summary>
@@ -98,9 +98,9 @@ namespace EmployeeManagement.Controllers
             int count = employeeBusiness.Delete(id);
             if (count == 0)
             {
-                return NotFound("No Employee with this id");
+                return NotFound(new { Response = "No Employee Data is found with this : " + id });
             }
-            return Ok("Employee data Deleted Successfully!");
+            return Ok(new { Response = "Employee data Deleted Successfully!" });
         }
     }
 }

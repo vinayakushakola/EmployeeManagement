@@ -4514,11 +4514,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\EmployeeManagement\\RepositoryLayer\\RepositoryLayer.csproj",
+      "projectUniqueName": "D:\\Github\\EmployeeManagement\\RepositoryLayer\\RepositoryLayer.csproj",
       "projectName": "RepositoryLayer",
-      "projectPath": "D:\\EmployeeManagement\\RepositoryLayer\\RepositoryLayer.csproj",
+      "projectPath": "D:\\Github\\EmployeeManagement\\RepositoryLayer\\RepositoryLayer.csproj",
       "packagesPath": "C:\\Users\\Vinayak Ushakola\\.nuget\\packages\\",
-      "outputPath": "D:\\EmployeeManagement\\RepositoryLayer\\obj\\",
+      "outputPath": "D:\\Github\\EmployeeManagement\\RepositoryLayer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -4537,8 +4537,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "D:\\EmployeeManagement\\CommonLayer\\CommonLayer.csproj": {
-              "projectPath": "D:\\EmployeeManagement\\CommonLayer\\CommonLayer.csproj"
+            "D:\\Github\\EmployeeManagement\\CommonLayer\\CommonLayer.csproj": {
+              "projectPath": "D:\\Github\\EmployeeManagement\\CommonLayer\\CommonLayer.csproj"
             }
           }
         }

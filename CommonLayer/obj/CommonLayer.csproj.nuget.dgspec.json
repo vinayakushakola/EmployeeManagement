@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\EmployeeManagement\\CommonLayer\\CommonLayer.csproj": {}
+    "D:\\Github\\EmployeeManagement\\CommonLayer\\CommonLayer.csproj": {}
   },
   "projects": {
-    "D:\\EmployeeManagement\\CommonLayer\\CommonLayer.csproj": {
+    "D:\\Github\\EmployeeManagement\\CommonLayer\\CommonLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\EmployeeManagement\\CommonLayer\\CommonLayer.csproj",
+        "projectUniqueName": "D:\\Github\\EmployeeManagement\\CommonLayer\\CommonLayer.csproj",
         "projectName": "CommonLayer",
-        "projectPath": "D:\\EmployeeManagement\\CommonLayer\\CommonLayer.csproj",
+        "projectPath": "D:\\Github\\EmployeeManagement\\CommonLayer\\CommonLayer.csproj",
         "packagesPath": "C:\\Users\\Vinayak Ushakola\\.nuget\\packages\\",
-        "outputPath": "D:\\EmployeeManagement\\CommonLayer\\obj\\",
+        "outputPath": "D:\\Github\\EmployeeManagement\\CommonLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

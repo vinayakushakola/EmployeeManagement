@@ -15,3 +15,4 @@ D:\EmployeeManagement\CommonLayer\obj\Debug\netcoreapp2.1\CommonLayer.AssemblyIn
 D:\EmployeeManagement\CommonLayer\obj\Debug\netcoreapp2.1\CommonLayer.dll
 D:\EmployeeManagement\CommonLayer\obj\Debug\netcoreapp2.1\CommonLayer.pdb
 D:\EmployeeManagement\CommonLayer\obj\Debug\netcoreapp2.1\CommonLayer.csprojAssemblyReference.cache
+D:\Github\EmployeeManagement\CommonLayer\obj\Debug\netcoreapp2.1\CommonLayer.csprojAssemblyReference.cache

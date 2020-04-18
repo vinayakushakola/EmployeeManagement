@@ -4534,11 +4534,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\EmployeeManagement\\BusinessLayer\\BusinessLayer.csproj",
+      "projectUniqueName": "D:\\Github\\EmployeeManagement\\BusinessLayer\\BusinessLayer.csproj",
       "projectName": "BusinessLayer",
-      "projectPath": "D:\\EmployeeManagement\\BusinessLayer\\BusinessLayer.csproj",
+      "projectPath": "D:\\Github\\EmployeeManagement\\BusinessLayer\\BusinessLayer.csproj",
       "packagesPath": "C:\\Users\\Vinayak Ushakola\\.nuget\\packages\\",
-      "outputPath": "D:\\EmployeeManagement\\BusinessLayer\\obj\\",
+      "outputPath": "D:\\Github\\EmployeeManagement\\BusinessLayer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -4557,11 +4557,11 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "D:\\EmployeeManagement\\CommonLayer\\CommonLayer.csproj": {
-              "projectPath": "D:\\EmployeeManagement\\CommonLayer\\CommonLayer.csproj"
+            "D:\\Github\\EmployeeManagement\\CommonLayer\\CommonLayer.csproj": {
+              "projectPath": "D:\\Github\\EmployeeManagement\\CommonLayer\\CommonLayer.csproj"
             },
-            "D:\\EmployeeManagement\\RepositoryLayer\\RepositoryLayer.csproj": {
-              "projectPath": "D:\\EmployeeManagement\\RepositoryLayer\\RepositoryLayer.csproj"
+            "D:\\Github\\EmployeeManagement\\RepositoryLayer\\RepositoryLayer.csproj": {
+              "projectPath": "D:\\Github\\EmployeeManagement\\RepositoryLayer\\RepositoryLayer.csproj"
             }
           }
         }
