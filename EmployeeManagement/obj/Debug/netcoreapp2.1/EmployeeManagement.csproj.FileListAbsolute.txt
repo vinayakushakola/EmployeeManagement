@@ -13,7 +13,6 @@ D:\Github\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp2.1\Employee
 D:\Github\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp2.1\EmployeeManagement.RazorTargetAssemblyInfo.cache
 D:\Github\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp2.1\EmployeeManagement.genruntimeconfig.cache
 D:\Github\EmployeeManagement\EmployeeManagement\bin\Debug\netcoreapp2.1\EmployeeManagement.pdb
-D:\Github\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp2.1\EmployeeManagement.csproj.CoreCompileInputs.cache
 D:\Github\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp2.1\EmployeeManagement.dll
 D:\Github\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp2.1\EmployeeManagement.pdb
 D:\Github\EmployeeManagement\EmployeeManagement\bin\Debug\netcoreapp2.1\BusinessLayer.dll
@@ -48,3 +47,4 @@ D:\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp2.1\EmployeeManagem
 D:\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp2.1\EmployeeManagement.dll
 D:\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp2.1\EmployeeManagement.pdb
 D:\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp2.1\EmployeeManagement.genruntimeconfig.cache
+D:\Github\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp2.1\EmployeeManagement.csproj.CoreCompileInputs.cache

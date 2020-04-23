@@ -9,11 +9,14 @@ using System.Linq;
 using Microsoft.AspNetCore.Mvc;
 using BusinessLayer.Interface;
 using CommonLayer.Model;
+using Microsoft.AspNetCore.Cors;
 
 namespace EmployeeManagement.Controllers
 {
     [Route("api/employees")]
     [ApiController]
+    [EnableCors("MyPolicy")]
+
     public class EmployeesController : ControllerBase
     {
         public IEmployeeBusiness employeeBusiness;
