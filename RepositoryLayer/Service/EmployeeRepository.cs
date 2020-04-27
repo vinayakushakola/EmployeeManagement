@@ -27,7 +27,7 @@ namespace RepositoryLayer.Service
 
             using (SqlConnection conn = new SqlConnection(sqlConnectionString))
             {
-                SqlCommand cmd = new SqlCommand("SP_GetAllEmployees", conn);
+                SqlCommand cmd = new SqlCommand("spGetAllEmployees", conn);
                 cmd.CommandType = System.Data.CommandType.StoredProcedure;
 
                 conn.Open();
@@ -41,6 +41,7 @@ namespace RepositoryLayer.Service
                     employee.FirstName = dataReader["FirstName"].ToString();
                     employee.LastName = dataReader["LastName"].ToString();
                     employee.Gender = dataReader["Gender"].ToString();
+                    employee.Email = dataReader["Email"].ToString();
                     employee.Department = dataReader["Department"].ToString();
                     employee.Salary = Convert.ToInt32(dataReader["Salary"]);
 
@@ -61,7 +62,7 @@ namespace RepositoryLayer.Service
 
             using (SqlConnection conn = new SqlConnection(sqlConnectionString))
             {
-                SqlCommand cmd = new SqlCommand("SP_GetEmployeeById", conn);
+                SqlCommand cmd = new SqlCommand("spGetEmployeeByID", conn);
                 cmd.CommandType = System.Data.CommandType.StoredProcedure;
 
                 cmd.Parameters.AddWithValue("@ID", id);
@@ -76,6 +77,7 @@ namespace RepositoryLayer.Service
                     employee.FirstName = dataReader["FirstName"].ToString();
                     employee.LastName = dataReader["LastName"].ToString();
                     employee.Gender = dataReader["Gender"].ToString();
+                    employee.Email = dataReader["Email"].ToString();
                     employee.Department = dataReader["Department"].ToString();
                     employee.Salary = Convert.ToInt32(dataReader["Salary"]);
                 }
@@ -93,12 +95,13 @@ namespace RepositoryLayer.Service
             int count = 0;
             using (SqlConnection conn = new SqlConnection(sqlConnectionString))
             {
-                SqlCommand cmd = new SqlCommand("SP_InsertEmployee", conn);
+                SqlCommand cmd = new SqlCommand("spInsertEmployee", conn);
                 cmd.CommandType = System.Data.CommandType.StoredProcedure;
 
                 cmd.Parameters.AddWithValue("@FirstName", employee.FirstName);
                 cmd.Parameters.AddWithValue("@LastName", employee.LastName);
                 cmd.Parameters.AddWithValue("@Gender", employee.Gender);
+                cmd.Parameters.AddWithValue("@Email", employee.Email);
                 cmd.Parameters.AddWithValue("@Department", employee.Department);
                 cmd.Parameters.AddWithValue("@Salary", employee.Salary);
 
@@ -119,7 +122,7 @@ namespace RepositoryLayer.Service
             int count = 0;
             using (SqlConnection conn = new SqlConnection(sqlConnectionString))
             {
-                SqlCommand cmd = new SqlCommand("SP_DeleteEmployee", conn);
+                SqlCommand cmd = new SqlCommand("spDeleteEmployee", conn);
                 cmd.CommandType = System.Data.CommandType.StoredProcedure;
 
                 cmd.Parameters.AddWithValue("@ID", id);
@@ -141,13 +144,14 @@ namespace RepositoryLayer.Service
             int count = 0;
             using (SqlConnection conn = new SqlConnection(sqlConnectionString))
             {
-                SqlCommand cmd = new SqlCommand("SP_UpdateEmployee", conn);
+                SqlCommand cmd = new SqlCommand("spUpdateEmployee", conn);
                 cmd.CommandType = System.Data.CommandType.StoredProcedure;
 
                 cmd.Parameters.AddWithValue("@ID", id);
                 cmd.Parameters.AddWithValue("@FirstName", employee.FirstName);
                 cmd.Parameters.AddWithValue("@LastName", employee.LastName);
                 cmd.Parameters.AddWithValue("@Gender", employee.Gender);
+                cmd.Parameters.AddWithValue("@Email", employee.Email);
                 cmd.Parameters.AddWithValue("@Department", employee.Department);
                 cmd.Parameters.AddWithValue("@Salary", employee.Salary);
 
