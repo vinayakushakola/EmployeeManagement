@@ -1,0 +1,38 @@
+﻿<div class="jumbotron text-center">
+    <div>
+        <h1>Employee Details</h1>
+    </div>
+
+    <div>
+        <div>
+            <button class="btn-default btn-lg"><a href="#AddEmployeeData">Add Employee</a></button>
+        </div>
+        <br />
+        <table class="table table-bordered table-hover table-responsive-lg">
+            <thead>
+                <tr style="font:bold">
+                    <th>Employee Id</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Gender</th>
+                    <th>Department</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="employee in employeesData">
+                    <td>{{ employee.id }}</td>
+                    <td>{{ employee.firstName }}</td>
+                    <td>{{ employee.lastName }}</td>
+                    <td>{{ employee.gender }}</td>
+                    <td>{{ employee.department }}</td>
+                    <td>
+                        <button class="btn btn-success btn-sm" ng-click="updateData(employee)">Edit</button>
+                        <button class="btn btn-danger btn-sm" ng-click="deleteEmployee(employee.id)">Delete</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
